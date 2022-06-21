@@ -9,7 +9,7 @@ Jika menggunakan Termux, gunakan:
 ```
 apt-get update -y && apt-get upgrade -y && apt-get install nodejs git -y
 ```
-Lalu clone repo dan install, gunakan:
+Run:
 ```
 git clone https://github.com/arzxh/konz/ && cd konz && npm i && npm start
 ```
