@@ -143,8 +143,7 @@
                 if (x == "") {
                     alert("Query tidak boleh kosong!");
                     return false;
-                } else if (url) {
-                    if (!/(youtube.com|youtu.be)/.test(x)) {
+                } else if (!/(?:http(?:s|):\/\/|)(?:(?:www\.|)?youtube(?:\-nocookie|)\.com\/(?:shorts\/)?(?:watch\?.*(?:|\&)v=|embed\/|v\/)?|youtu\.be\/)([-_0-9A-Za-z]{11})/.test(x)) {
                         alert("Invalid URL!");
                         return false;
                     }
